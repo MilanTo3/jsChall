@@ -1,15 +1,15 @@
-function ping(n){
+function ping(){
     
     i = i + 1;
     console.log('ping', i);
-    return pong(n + 1);
+    return pong();
 }
 
-function pong(n){
+function pong(){
 
     i = i + 1;
     console.log('pong', i);
 }
 
 var i = 0;
-setInterval(ping, 100, i)
+setInterval(ping, 100)
